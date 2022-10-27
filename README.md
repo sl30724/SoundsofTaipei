@@ -15,8 +15,11 @@ I was inspired by [the sounds of CDMX project](https://pudding.cool/2022/09/cdmx
 
 ## Content
 Audio: sourcing the audio might be the hardest part of this project. I've found some great clips on Youtube and I intend to only use the sound in the videos.
+
 Graphic: I might use (and pay if I have to) 1-2 illustrations of the same style.
+
 Text: I'm writing all the text myself.
+
 
 # Goals
 #### MVP
