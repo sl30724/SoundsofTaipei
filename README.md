@@ -5,9 +5,13 @@ I was inspired by [the sounds of CDMX project](https://pudding.cool/2022/09/cdmx
 
 ## Tools I will use
 ***Basically New*** GSAP - Creating scrolling effects.
+
 ***New*** Howler.js - A useful library for sounds.
+
 ***New*** Typescript - Just something I want to get familiar with.
+
 ***New*** Vite - Build tool that I want to try out.
+
 
 ## Content
 Audio: sourcing the audio might be the hardest part of this project. I've found some great clips on Youtube and I intend to only use the sound in the videos.
