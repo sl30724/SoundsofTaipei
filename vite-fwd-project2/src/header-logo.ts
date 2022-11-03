@@ -6,7 +6,6 @@ export function changeImage(element: HTMLImageElement) {
     let images: string[] = [scooter1, scooter2, scooter3];
     let index: number = 0;
     const change = () => {
-    // element.src = images[index];
     element.setAttribute("src", images[index]);
     index++;
     if (index >= images.length) {
