@@ -23,10 +23,10 @@ Setting up Vite and installed all the libraries and dependencies and learning th
 - [x] Learn how to manipulate DOM with TS.
 - [x] Review JS modules and learn the basics of using modules in TS.
 - [x] Animate the header logo with DOM and TS.
-- [] Nov 8-9th: Learn how to use GSAP pinning and scroll-to with TS.
-- [] Nov 8-9th: Build the first three pages.
-- [] Nov 9-10th: Animate the first three pages with pinning and scroll-to.
-- [] Nov 10th: Learn the basics of Howler.js.
-- [] Nov 10-11th: Include audio effects in the first three pages.
-- [] Nov 12-15th: Build the remaining nine pages.
-- [] Nov 16th: Deployment!
+- [ ] Nov 8-9th: Learn how to use GSAP pinning and scroll-to with TS.
+- [ ] Nov 8-9th: Build the first three pages.
+- [ ] Nov 9-10th: Animate the first three pages with pinning and scroll-to.
+- [ ] Nov 10th: Learn the basics of Howler.js.
+- [ ] Nov 10-11th: Include audio effects in the first three pages.
+- [ ] Nov 12-15th: Build the remaining nine pages.
+- [ ] Nov 16th: Deployment!
