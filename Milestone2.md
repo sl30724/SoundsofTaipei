@@ -17,16 +17,16 @@ Another 2-3 days were spent on converting, editing, and compressing all the reso
 ## Step4: Environment Setup
 Setting up Vite and installed all the libraries and dependencies and learning the basics of Vite took about a day.
 
-## Step5: Build & To-do List
+## Step5: Building & To-do List
 - [x] Understand how to manage and use static media resources with Vite.
 - [x] Sorting resoucres folders accordingly.
 - [x] Learn how to manipulate DOM with TS.
 - [x] Review JS modules and learn the basics of using modules in TS.
 - [x] Animate the header logo with DOM and TS.
-- [] Nov 8-9th: Learn how to use GSAP pinning and scroll-to with TS.
-- [] Nov 8-9th: Build the first three pages.
-- [] Nov 9-10th: Animate the first three pages with pinning and scroll-to.
-- [] Nov 10th: Learn the basics of Howler.js.
-- [] Nov 10-11th: Include audio effects in the first three pages.
-- [] Nov 12-15th: Build the remaining nine pages.
-- [] Nov 16th: Deployment!
+- [ ] Nov 8-9th: Learn how to use GSAP pinning and scroll-to with TS.
+- [ ] Nov 8-9th: Build the first three pages.
+- [ ] Nov 9-10th: Animate the first three pages with pinning and scroll-to.
+- [ ] Nov 10th: Learn the basics of Howler.js.
+- [ ] Nov 10-11th: Include audio effects in the first three pages.
+- [ ] Nov 12-15th: Build the remaining nine pages.
+- [ ] Nov 16th: Deployment!
