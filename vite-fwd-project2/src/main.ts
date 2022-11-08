@@ -5,7 +5,7 @@ import { changeImage } from "./header-logo"
 document.querySelector<HTMLDivElement>('#intro')!.innerHTML = `
   <div>
   <img id="header-logo" src = "" alt="scooter" />
-    <h1>你好，歡迎光臨</h1>
+    <h1><span lang="zh">你好，歡迎光臨</span></h1>
     <p class="read-the-docs">
     This is an audio/visual Tour exploring the sounds of Taipei City’s streets.
     To begin, please make sure your sound is on and connect headphones.
