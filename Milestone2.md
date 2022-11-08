@@ -17,7 +17,7 @@ Another 2-3 days were spent on converting, editing, and compressing all the reso
 ## Step4: Environment Setup
 Setting up Vite and installed all the libraries and dependencies and learning the basics of Vite took about a day.
 
-## Step5: Build & To-do List
+## Step5: Building & To-do List
 - [x] Understand how to manage and use static media resources with Vite.
 - [x] Sorting resoucres folders accordingly.
 - [x] Learn how to manipulate DOM with TS.
