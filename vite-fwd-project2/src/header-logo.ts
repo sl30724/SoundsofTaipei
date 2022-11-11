@@ -11,7 +11,6 @@ export function changeImage(element: HTMLImageElement) {
     if (index >= images.length) {
         index = 0;
     }
-    console.log(index);
 }
 change();
 setInterval(change, 3000);
