@@ -74,7 +74,6 @@ for (let i = 0; i < contents.length; i++) {
         trigger: `#${contents[i]}`,
         start: "top center",
         end: "bottom top",
-        markers: true,
         immediateRender: true,
         onToggle: self => {
             console.log(`${contents[i]}, isActive:`, self.isActive);
