@@ -5,13 +5,12 @@ import { Howl, Howler } from "howler";
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 const pages = Array.from(document.querySelectorAll<HTMLElement>(".page"));
-const intro = document.querySelector<HTMLElement>(".tour")!;
 const startButton = document.getElementById("start-button") as HTMLButtonElement;
 const restartButton = document.getElementById("restart-button") as HTMLButtonElement;
 const soundButton = document.getElementById("sound-button") as HTMLButtonElement;
 const warning = document.querySelector<HTMLElement>(".warning")!;
-const background = document.querySelector<HTMLElement>(".background")!;
 let muteBool: boolean = false;
+
 // Howler setup
 Howler.volume(0.8);
 
@@ -34,8 +33,6 @@ mySrc.forEach((src, i) => {
     });
 });
 
-// scroll with background pinned
-
 
 // DOM & GSAP & Howl
 startButton.addEventListener("click", () => {
@@ -44,7 +41,9 @@ startButton.addEventListener("click", () => {
         page.style.display = "flex";
     };
     });
+    // scroll to tour when the start button is clicked
     gsap.to(window, { duration: 1, scrollTo: { y: ".tour" }, immediateRender: false });
+    // scroll with background pinned
     ScrollTrigger.create({
         trigger: "section.tour",
         pin: ".background",
@@ -53,22 +52,21 @@ startButton.addEventListener("click", () => {
         endTrigger: ".content-block",
         immediateRender: false,
         scrub: 0.5,
-        // end: () => "bottom top-=" + window.innerHeight/2,
     });
     sounds[0].play();
 });
-
+// scroll to tour when the restart button is clicked
 restartButton.addEventListener("click", () => {
     gsap.to(window, { duration: 1, scrollTo: { y: ".tour" }, immediateRender: false });
 });
-
+// check if the sound button is clicked
 soundButton.addEventListener("click", () => {
     checkMute();
     Howler.mute(muteBool);
     console.log(muteBool);
 });
 
-//play sounds when an element is in viewport
+// play sounds when an element is in viewport
 let contents: Array<string> = ["start", "first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "nineth", "tenth"];
 
 for (let i = 0; i < contents.length; i++) {
@@ -105,7 +103,7 @@ for (let i = 0; i < contents.length; i++) {
         }
     });
 };
-
+// mute and unmute if sound button is clicked
 function checkMute() {
     if (muteBool == false) {
         muteBool = true;
@@ -120,31 +118,15 @@ function checkMute() {
     }
 };
 
-// Set the name of the hidden property and the change event for visibility
-let hidden: string;
-let visibilityChange;
-if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support
-  hidden = "hidden";
-  visibilityChange = "visibilitychange";
-} else if (typeof document.msHidden !== "undefined") {
-  hidden = "msHidden";
-  visibilityChange = "msvisibilitychange";
-} else if (typeof document.webkitHidden !== "undefined") {
-  hidden = "webkitHidden";
-  visibilityChange = "webkitvisibilitychange";
-};
-
-// If the page is hidden, stop the audio;
-function handleVisibilityChange() {
-  if (document[hidden]) {
-    Howler.stop();
-  } 
-};
-
-// Warn if the browser doesn't support addEventListener or the Page Visibility API
-if (typeof document.addEventListener === "undefined" || hidden === undefined) {
-  console.log("This demo requires a browser, such as Google Chrome or Firefox, that supports the Page Visibility API.");
-} else {
-  // Handle page visibility change
-  document.addEventListener(visibilityChange, handleVisibilityChange, false);
-};
+// stop playing if tab is not focused
+function checkTabFocused() {
+    if (document.visibilityState === 'visible') {
+      console.log('✅ browser tab has focus');
+    } else {
+      console.log('⛔️ browser tab does NOT have focus');
+      Howler.stop();
+    }
+  };
+  
+  // Add event listener
+document.addEventListener('visibilitychange', checkTabFocused);
