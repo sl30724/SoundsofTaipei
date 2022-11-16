@@ -27,7 +27,7 @@ document.querySelector<HTMLDivElement>(".tour")!.innerHTML = `
 <div class="content-block">
   <div class="content" id="start">
     <h1 class="copy">The Sounds of Taipei</h1>
-    <p class="copy">Taipei is a vibrant city with colors, smells, and sounds.
+    <p class="copy">Taipei is a multi-faceted city with vibrant colors, distinctive smells, and particular sounds.
     These are the sounds that you might hear on the streets of Taipei as a tourist.</p>
   </div> 
   <div class="content" id="first">
@@ -45,12 +45,11 @@ document.querySelector<HTMLDivElement>(".tour")!.innerHTML = `
       <img class="content-image scooter" src="images/pig-scooter.png" alt="pig scooter">
       <img class="content-image scooter" src="images/vendor-scooter.png" alt="vendor scooter">
       </div>
-    <p><span lang="zh-Hant">機車 (motorcycles/scooters)</span></p>
-    <p>In the morning, you might be waken up by the roaring sounds of scooters.<br>
+    <p>In the morning, you might be waken up by the roaring sounds of <span lang="zh-Hant">機車 (motorcycles/scooters)</span>.<br>
     <br>
     Because of the well-developed public transportation system, owning a car is unnecessary for many. Nevertheless, having a small and convenient scooter is popular.<br>
     <br>
-    According to official statistics, there are close to a million motorcycles/scooters in Taipei City alone.</p>
+    According to official statistics, there are close to a million motorcycles and scooters in Taipei City alone.</p>
     </div> 
    </div> 
   <div class="content" id="third">
@@ -80,13 +79,12 @@ document.querySelector<HTMLDivElement>(".tour")!.innerHTML = `
     <img class="map-closeup" src="/images/xiang-shan.png" alt="Xiang Shan">
     <div class="copy">
       <p>Taipei City is located in Taipei Basin surrounded by mountains.<br>
-      It’s needless to say hiking in these lush subtropical forrests in nearby mountains and enjoying the breathtaking view of Taipei is one of the many things people enjoy doing.</p>
+      Hiking in these lush subtropical forests and enjoying the breathtaking view of Taipei is one of the many things people enjoy doing.</p>
     </div>
   </div>
   <div class="content" id="sixth">
     <div class="copy">
-      <p>While strolling through Taipei,<br>
-      you might hear the singing of <span lang="zh-Hant">垃圾車 (garbage truck)</span>.<br>
+      <p>While strolling through Taipei, you might hear the singing of <span lang="zh-Hant">垃圾車 (garbage truck)</span>.<br>
       <br>
       The residents bring out the trash when they hear the familiar Beethoven's “Für Elise,” being played by the drivers of garbage trucks as they drive down the street. This is often a chance for neighbors to mingle, keeping the streets bustling with social interactions.</p>
     </div>
@@ -94,11 +92,11 @@ document.querySelector<HTMLDivElement>(".tour")!.innerHTML = `
   </div>
   <div class="content" id="seventh">
     <div class="copy">
-      <div class="gallery">
-      <img class="content-image" src="/images/beef-noodle-soup.png" alt="beef noodle soup">
-      <img class="content-image" src="images/soup-dumpling.png" alt="soup dumpling">
-      <img class="content-image" src="images/minced-pork-rice.png" alt="minced pork rice">
-      <img class="content-image" src="images/hot-pot.png" alt="hot pot">
+      <div class="gallery street-food">
+      <img class="content-image lunch" src="/images/beef-noodle-soup.png" alt="beef noodle soup">
+      <img class="content-image lunch" src="images/soup-dumpling.png" alt="soup dumpling">
+      <img class="content-image lunch" src="images/minced-pork-rice.png" alt="minced pork rice">
+      <img class="content-image lunch" src="images/hot-pot.png" alt="hot pot">
       </div>
       <p>After hiking, head to the nearby food court located beneath Taipei 101 for lunch. Highly influenced by Chinese and Japanese cuisine, Taiwanese food is worth being obsessed over for a reason.<br>
       <br>
@@ -107,57 +105,59 @@ document.querySelector<HTMLDivElement>(".tour")!.innerHTML = `
     <img class="map-closeup" src="/images/taipei-101.png" alt="garbage truck">
   </div>
   <div class="content" id="eighth">
-  <img class="map-closeup" src="/images/lungshan-temple.png" alt="Lungshan Temple">
+  <img class="map-closeup" src="/images/lungshan-temple.png" alt="Longshan Temple">
     <div class="copy">
       <p>Beneath Taipei’s modern façade is a body of beliefs that stretch back for millennia. That’s why temples are everywhere to be seen around Taipei.<br>
       <br>
-      Head over to one of the most popular temples in Taipei, <span lang="zh-Hant">龍山寺 (Lungshan Temple)</span>, and learn how religion sets the clock for living in Taiwan, regulates holidays, and often determines the rhythm for both business and family.</p>
+      Pay a visit to one of the most popular temples in Taipei, <span lang="zh-Hant">龍山寺 (Longshan Temple)</span>, and learn how religion sets the clock for living in Taiwan, regulates holidays, and often determines the rhythm for both business and family.</p>
     </div>
   </div>
   <div class="content" id="nineth">
   <img class="map-closeup" src="/images/dadaocheng.png" alt="Dadaocheng">
     <div class="copy">
-      <p>Head to the nearby <span lang="zh-Hant">大稻埕 (Dadaocheng, Twatutia, Daitōtei)</span>, the oldest district in Taipei, for a glimpse at the old Taipei where most of the buildings still preserve its original looks.<br>
+      <p>Head over to <span lang="zh-Hant">大稻埕 (Dadaocheng, Twatutia, Daitōtei)</span>, the oldest district in Taipei, for a glimpse at the old Taipei where most of the buildings still preserve their original looks.<br>
       <br>
-      You can also watch a  <span lang="zh-Hant">歌仔戲 (Taiwanese opera, Ke-Tse opera, Hokkien opera)</span> at Dadaocheng Theater, a form of traditional drama originating in Taiwan. It is considered as the embodiment of Taiwanese history and tradition because the political identity crisis of Taiwan shaped its development.<br>
+      If you're lucky, you might catch a <span lang="zh-Hant">歌仔戲 (Taiwanese opera, Ke-Tse opera, Hokkien opera)</span>, a form of traditional drama originating in Taiwan, outside Dadaocheng Theater. Considered as the embodiment of Taiwanese history, its development is shaped by the political identity crisis of Taiwan.<br>
       <br>
-      While its popularity among people has declined over the years, there’s a dedicating group of people striving to preserve this spectacular art form.</p>
+      While its popularity among people has declined over the years, there’s a dedicated group of people striving to preserve this spectacular art form.</p>
     </div>
   </div>
   <div class="content" id="tenth">
   <img class="map-closeup" id="map-nightmarket" src="/images/background-night-market.png" alt="Night market">
     <div class="copy">
-      <div class="gallery">
+      <div class="gallery street-food">
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/stinky-tofu.png" alt="stinky tofu">
-          <p class=caption><span lang="zh-Hant">臭豆腐<br>(Stinky tofu)</span></p>
+          <p class=caption><span lang="zh-Hant">Stinky tofu</span></p>
         </div>
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/bubble-tea.png" alt="bubble tea">
-          <p class=caption><span lang="zh-Hant">珍珠奶茶<br>(Bubble tea)</span></p>
+          <p class=caption><span lang="zh-Hant">Boba tea</span></p>
         </div>
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/oyster-omlette.png" alt="oyster omlette">
-          <p class=caption><span lang="zh-Hant">蚵仔煎<br>(Oyster Omlette)</span></p>
+          <p class=caption><span lang="zh-Hant">Oyster Omlette</span></p>
         </div>
+      </div>
+      <div class="gallery">
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/meatball.png" alt="meatball">
-          <p class=caption><span lang="zh-Hant">肉圓<br>(Meatball)</span></p>
+          <p class=caption><span lang="zh-Hant">Meatball</span></p>
         </div>
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/papaya-milk.png" alt="papaya milk">
-          <p class=caption><span lang="zh-Hant">木瓜牛奶<br>(Papaya milk)</span></p>
+          <p class=caption><span lang="zh-Hant">Papaya milk</span></p>
         </div>
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/mango-ice.png" alt="mango ice">
-          <p class=caption><span lang="zh-Hant">芒果冰<br>(Mango ice)</span></p>
+          <p class=caption><span lang="zh-Hant">Mango ice</span></p>
         </div>
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/pigblood-cake.png" alt="pigblood cake">
-          <p class=caption><span lang="zh-Hant">豬血糕<br>(Pigbloog cake)</span></p>
+          <p class=caption><span lang="zh-Hant">Pig blood cake</span></p>
         </div>
       </div>
-      <p>When the nightfall approaches, it’s time to head over the highlight of your day — <span lang="zh-Hant">夜市 (night market)</span>. All kinds of vendors would gather around urban street corners or temple plazas to sell handicrafts, games, consumer goods,  Taiwanese street food, and desserts.<br>
+      <p>When nightfall approaches, it’s time to head over for the highlight of your day — <span lang="zh-Hant">夜市 (night market)</span>. All kinds of vendors gather around urban street corners or temple plazas to sell handicrafts, games, consumer goods,  Taiwanese street food, and desserts.<br>
       </p>
     </div>
   </div>
@@ -166,8 +166,8 @@ document.querySelector<HTMLDivElement>(".tour")!.innerHTML = `
 document.querySelector<HTMLDivElement>(".footer")!.innerHTML = `
 <div class="intro-block">
     <h1><span lang="zh-Hant">謝謝！</span></h1>
-    <p>This project wouldn’t be as cool if not for the beautiful illustrations handdrawn by Tom Parker,<br>
-    as well as the multiple sound clips poduced by people who share my love for Taipei City.<br>
+    <p>This project wouldn’t be as cool if not for the beautiful illustrations hand-drawn by Tom Parker,<br>
+    as well as the multiple sound clips produced by people who share my love for Taipei City.<br>
     See below for the the list of Youtube videos used for audio,<br>
     or see the tour again by clicking the button.
     </p>

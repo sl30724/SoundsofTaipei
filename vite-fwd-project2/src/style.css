@@ -197,26 +197,37 @@ button.secondary:hover {
 .gallery {
   display: flex;
   flex-direction:row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   place-content: center;
   padding: 2em 4em;
 }
 
+.street-food {
+  align-items: flex-start;
+  padding: 0em 4em;
+}
+
 .image-caption {
   display: flex;
   flex-direction:column;
+  flex-wrap: nowrap;
   align-items: center;
   place-content: center;
 }
 
 .content-image {
-  height:6em;
-  margin: 0px 10px;
+  width: 6em;
+  max-width: 60%;
+  min-height: 4em;
+  margin: 0px 0px;
 }
 
 .nightmarket {
-  margin: -5px 10px;
+  width: 8em;
+  max-width: 100%;
+  min-height: 4em;
+  margin: -5px 30px;
 }
 
 .scooter {
@@ -224,15 +235,26 @@ button.secondary:hover {
 }
 
 .breakfast {
+  max-width: 100%;
   margin: 0px 0px;
 }
+
+.lunch {
+  max-width: 40%;
+  margin: 0px 10px;
+}
+
 .scooter#scooter-1 {
-  height: 7em;
-  margin: 0px -30px;
+  width: 8.5em;
+  max-width: 80%;
+  min-height: 4.5em;
+  margin: 0px -25px;
 }
 
 .content-image#breakfast-1 {
-  height: 4em;
+  width: 4em;
+  max-width: 70%;
+  min-height: 1em;
   margin: 0px 10px;
 }
 
