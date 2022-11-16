@@ -6,7 +6,7 @@
 
 # Progress
 ## Step1: Sourcing Resource
-I spent 4-5 days on searching and sourcing all the images and audios I want to include in this project. I eventually reached out to this famous British illustrator in Taiwan and asked for his permission to use his illustrations in this project. Luckily, he likes me idea and was generous enough to send me the images I want to use in high-res.
+I spent 4-5 days on searching for all the images and audios I want to include in this project. I eventually reached out to this famous British illustrator in Taiwan and asked for his permission to use his illustrations in this project. Luckily, he likes my idea and was generous enough to send me the images I want to use in high-res.
 
 ## Step2: Designing
 The next 3-4 days, I focused on designing the interactive prototype and writing the content. Since there's a lot going on in the background (colors, images, and sounds), I'm using the same easy-to-read font for both title and body.
@@ -23,10 +23,10 @@ Setting up Vite and installed all the libraries and dependencies and learning th
 - [x] Learn how to manipulate DOM with TS.
 - [x] Review JS modules and learn the basics of using modules in TS.
 - [x] Animate the header logo with DOM and TS.
-- [ ] Nov 8-9th: Learn how to use GSAP pinning and scroll-to with TS.
-- [ ] Nov 8-9th: Build the first three pages.
-- [ ] Nov 9-10th: Animate the first three pages with pinning and scroll-to.
-- [ ] Nov 10th: Learn the basics of Howler.js.
-- [ ] Nov 10-11th: Include audio effects in the first three pages.
-- [ ] Nov 12-15th: Build the remaining nine pages.
-- [ ] Nov 16th: Deployment!
+- [x] Nov 8-9th: Learn how to use GSAP pinning and scroll-to with TS.
+- [x] Nov 8-9th: Build the first three pages.
+- [x] Nov 9-10th: Animate the first three pages with pinning and scroll-to.
+- [x] Nov 10th: Learn the basics of Howler.js.
+- [x] Nov 10-11th: Include audio effects in the first three pages.
+- [x] Nov 12-15th: Build the remaining nine pages.
+- [x] Nov 16th: Deployment!
