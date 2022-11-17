@@ -48,7 +48,7 @@ a:hover {
 }
 
 body {
-  background-color: #fff;
+  /* background-color: #fff; */
   margin: 0;
   padding: 0;
   display: flex;
@@ -262,4 +262,17 @@ button.secondary:hover {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+      background-color: white;
+      color: black;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: white;
+      color: black;
+  }
 }
