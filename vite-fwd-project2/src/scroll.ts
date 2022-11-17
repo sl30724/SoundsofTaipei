@@ -23,12 +23,7 @@ mySrc.forEach((src, i) => {
         autoplay: false,
         loop: true,
         onplay: function () {
-            console.log(`src ${i} is playing`);
             sounds[i].fade(0, 0.8, 2000);
-        },
-        onstop: function () {
-            // sounds[i].fade(0.8, 0, 3000);
-            console.log(`src ${i} stopped playing`);
         },
     });
 });
@@ -63,7 +58,6 @@ restartButton.addEventListener("click", () => {
 soundButton.addEventListener("click", () => {
     checkMute();
     Howler.mute(muteBool);
-    console.log(muteBool);
 });
 
 // play sounds when an element is in viewport
@@ -76,7 +70,6 @@ for (let i = 0; i < contents.length; i++) {
         end: "bottom top",
         immediateRender: true,
         onToggle: self => {
-            console.log(`${contents[i]}, isActive:`, self.isActive);
             if (self.isActive === true) {
                 if (i === 0) {
                     gsap.to(".background", { opacity: 1 });
