@@ -6,7 +6,7 @@ document.querySelector<HTMLDivElement>('.intro')!.innerHTML = `
   <img id="header-logo" src = "" alt="scooter" />
     <h1><span lang="zh-Hant">你好，歡迎光臨</span></h1>
     <p class="intro-content">
-    This is an audio/visual Tour exploring the sounds of Taipei City’s streets.
+    This is an audio/visual tour exploring the sounds of Taipei City’s streets.
     To begin, please make sure your sound is on and connect headphones.
     </p>
     <p class="caption">
