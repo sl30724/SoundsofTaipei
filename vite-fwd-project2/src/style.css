@@ -225,9 +225,9 @@ button.secondary:hover {
 
 .nightmarket {
   width: 8em;
-  max-width: 100%;
+  max-width: 80%;
   min-height: 4em;
-  margin: -5px 30px;
+  margin: -10px 30px;
 }
 
 .scooter {

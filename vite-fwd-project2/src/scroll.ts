@@ -14,7 +14,7 @@ let muteBool: boolean = false;
 // Howler setup
 Howler.volume(0.8);
 
-let mySrc: Array<string> = ["/audios/238kb-edited-plane-landing-china-.mp3", "/audios/750kb-edited-ximending-walking.mp3", "/audios/356kb-edited-motorcycle-waterfall.mp3", "/audios/519kb-edited-breakfast.mp3", "/audios/1.7mb-edited-mrt.mp3", "/audios/553kb-edited-hiking.mp3", "/audios/430kb-edited-garbage-truck.mp3", "/audios/680kb-edited-food-court.mp3", "/audios/352kb-edited-longshan-temple.mp3", "/audios/815kb-edited-taiwanese-opera.mp3", "audios/426kb-edited-night-market.mp3"];
+let mySrc: Array<string> = ["/audios/edited-plane-landing.mp3", "/audios/edited-ximending-walking.mp3", "/audios/356kb-edited-motorcycle-waterfall.mp3", "/audios/edited-breakfast.mp3", "/audios/edited-mrt.mp3", "/audios/553kb-edited-hiking.mp3", "/audios/430kb-edited-garbage-truck.mp3", "/audios/680kb-edited-food-court.mp3", "/audios/352kb-edited-longshan-temple.mp3", "/audios/815kb-edited-taiwanese-opera.mp3", "audios/426kb-edited-night-market.mp3"];
 
 let sounds = new Array(mySrc.length);
 mySrc.forEach((src, i) => {

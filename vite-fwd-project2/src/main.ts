@@ -132,7 +132,7 @@ document.querySelector<HTMLDivElement>(".tour")!.innerHTML = `
         </div>
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/bubble-tea.png" alt="bubble tea">
-          <p class=caption><span lang="zh-Hant">Boba tea</span></p>
+          <p class=caption><span lang="zh-Hant">Bubble tea</span></p>
         </div>
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/oyster-omlette.png" alt="oyster omlette">
@@ -142,7 +142,7 @@ document.querySelector<HTMLDivElement>(".tour")!.innerHTML = `
       <div class="gallery">
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/meatball.png" alt="meatball">
-          <p class=caption><span lang="zh-Hant">Meatball</span></p>
+          <p class=caption><span lang="zh-Hant">Taiwanese Meatball</span></p>
         </div>
         <div class="image-caption">
           <img class="content-image nightmarket" src="images/papaya-milk.png" alt="papaya milk">
